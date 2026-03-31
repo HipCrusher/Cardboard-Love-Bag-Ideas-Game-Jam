@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 906, in script
+    jump limlim
+ScriptError: could not find label 'limlim'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 906, in script
+    jump limlim
+  File "C:\Users\Sahil\Desktop\renpy-8.3.2-sdk\renpy\ast.py", line 1699, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\Sahil\Desktop\renpy-8.3.2-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'limlim'.
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.3.2.24090902
+Cardboard Love 1.0
+Tue Mar 31 16:17:57 2026
